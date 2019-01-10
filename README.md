@@ -7,3 +7,6 @@ We provide these notebooks to aid with the development of lectures and understan
 ## Installation
 All notebooks have Julia 1.0.1 kernels.
 The REQUIRE file contains the list of required Julia packages.
+
+Rendering is managed by [PGFPlots.jl](https://github.com/JuliaTeX/PGFPlots.jl).
+Please see [their documentation](https://nbviewer.jupyter.org/github/JuliaTeX/PGFPlots.jl/blob/master/doc/PGFPlots.ipynb) for installation instructions.
