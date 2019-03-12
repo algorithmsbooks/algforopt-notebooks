@@ -6,7 +6,14 @@ We provide these notebooks to aid with the development of lectures and understan
 
 ## Installation
 All notebooks have Julia 1.0.1 kernels.
-The REQUIRE file contains the list of required Julia packages.
+[Julia can be installed here.](https://julialang.org/downloads/)
 
 Rendering is managed by [PGFPlots.jl](https://github.com/JuliaTeX/PGFPlots.jl).
 Please see [their documentation](https://nbviewer.jupyter.org/github/JuliaTeX/PGFPlots.jl/blob/master/doc/PGFPlots.ipynb) for important installation instructions.
+
+Once the repo is cloned, one can set up the required packages from the terminal before launching the jupyter notebook:
+```
+export JULIA_PROJECT="@."
+julia -e 'using Pkg; pkg"instantiate"'
+jupyter notebook
+```
